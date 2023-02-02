@@ -136,19 +136,19 @@
     
     :root.dark {
       --primary-color: $base;
-      --primary-light-color: $overlay0;
-      --primary-dark-color: $mantle;
-      --primary-contrast-color: $crust;
+      --primary-light-color: $surface2;
+      --primary-dark-color: $crust;
+      --primary-contrast-color: $mantle;
       --secondary-color: $subtext0;
       --secondary-light-color: $subtext0;
-      --secondary-dark-color: $overlay2;
+      --secondary-dark-color: $subtext2;
       --divider-color: $overlay0;
       --divider-light-color: $overlay1;
       --divider-dark-color: $surface2;
       --error-color: $red;
       --tooltip-color: $text;
       --popover-color: $crust;
-      --editor-theme: "catppuccin";
+      --editor-theme: "vscode-esque";
       --editor-type-color: #a78bfa;
       --editor-name-color: $blue;
       --editor-operator-color: $mauve;
@@ -176,7 +176,7 @@
       --error-color: $red;
       --tooltip-color: $text;
       --popover-color: $crust;
-      --editor-theme: "catppuccin";
+      --editor-theme: "vscode-esque";
       --editor-type-color: #a78bfa;
       --editor-name-color: $blue;
       --editor-operator-color: $mauve;
@@ -189,4 +189,9 @@
       --editor-constant-color: #a78bfa;
       --editor-keyword-color: #f472b6;
     }
+    
+    .ͼ1 .cm-placeholder {
+        color: $text;
+    }
+    
 }
