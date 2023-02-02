@@ -132,6 +132,15 @@
         $mantle    = hsl(240, 21.3%, 12%)
         $crust     = hsl(240, 22.7%, 8.6%)
     }
+
+    
+    $accent-light-alpha = 1.1
+    $accent-dark-alpha = 0.9
+    $accent-gradient-from-color = 1.05
+    $accent-gradient-via-color = 1.2
+    $accent-gradient-to-color = 0.85
+    
+
     
     
     :root.dark {
@@ -196,92 +205,92 @@
     
     :root[data-accent="green"] {
       --accent-color: $green;
-      --accent-light-color: hsla($green, 1.1);
-      --accent-dark-color: hsla($green, 0.9);
+      --accent-light-color: hsla($green, $accent-light-alpha);
+      --accent-dark-color: hsla($green, $accent-dark-alpha);
       --accent-contrast-color: $crust;
-      --gradient-from-color: hsla($green, 1.05);
-      --gradient-via-color: hsla($green, 1.2);
-      --gradient-to-color: hsla($green, 0.85);
+      --gradient-from-color: hsla($green, $accent-gradient-from-color);
+      --gradient-via-color: hsla($green, $accent-gradient-via-color);
+      --gradient-to-color: hsla($green, $accent-gradient-to-color);
     }
     
     :root[data-accent="teal"] {
         --accent-color: $teal;
-        --accent-light-color: hsla($teal, 1.1);
-        --accent-dark-color: hsla($teal, 0.9);
+        --accent-light-color: hsla($teal, $accent-light-alpha);
+        --accent-dark-color: hsla($teal, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($teal, 1.05);
-        --gradient-via-color: hsla($teal, 1.2);
-        --gradient-to-color: hsla($teal, 0.85);
+        --gradient-from-color: hsla($teal, $accent-gradient-from-color);
+        --gradient-via-color: hsla($teal, $accent-gradient-via-color);
+        --gradient-to-color: hsla($teal, $accent-gradient-to-color);
     }
     
     :root[data-accent="blue"] {
         --accent-color: $blue;
-        --accent-light-color: hsla($blue, 1.1);
-        --accent-dark-color: hsla($blue, 0.9);
+        --accent-light-color: hsla($blue, $accent-light-alpha);
+        --accent-dark-color: hsla($blue, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($blue, 1.05);
-        --gradient-via-color: hsla($blue, 1.2);
-        --gradient-to-color: hsla($blue, 0.85);
+        --gradient-from-color: hsla($blue, $accent-gradient-from-color);
+        --gradient-via-color: hsla($blue, $accent-gradient-via-color);
+        --gradient-to-color: hsla($blue, $accent-gradient-to-color);
     }
     
     :root[data-accent="indigo"] {
         --accent-color: $lavender;
-        --accent-light-color: hsla($lavender, 1.1);
-        --accent-dark-color: hsla($lavender, 0.9);
+        --accent-light-color: hsla($lavender, $accent-light-alpha);
+        --accent-dark-color: hsla($lavender, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($lavender, 1.05);
-        --gradient-via-color: hsla($lavender, 1.2);
-        --gradient-to-color: hsla($lavender, 0.85);
+        --gradient-from-color: hsla($lavender, $accent-gradient-from-color);
+        --gradient-via-color: hsla($lavender, $accent-gradient-via-color);
+        --gradient-to-color: hsla($lavender, $accent-gradient-to-color);
     }
     
     :root[data-accent="purple"] {
         --accent-color: $mauve;
-        --accent-light-color: hsla($mauve, 1.1);
-        --accent-dark-color: hsla($mauve, 0.9);
+        --accent-light-color: hsla($mauve, $accent-light-alpha);
+        --accent-dark-color: hsla($mauve, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($mauve, 1.05);
-        --gradient-via-color: hsla($mauve, 1.2);
-        --gradient-to-color: hsla($mauve, 0.85);
+        --gradient-from-color: hsla($mauve, $accent-gradient-from-color);
+        --gradient-via-color: hsla($mauve, $accent-gradient-via-color);
+        --gradient-to-color: hsla($mauve, $accent-gradient-to-color);
     }
     
     :root[data-accent="yellow"] {
         --accent-color: $yellow;
-        --accent-light-color: hsla($yellow, 1.1);
-        --accent-dark-color: hsla($yellow, 0.9);
+        --accent-light-color: hsla($yellow, $accent-light-alpha);
+        --accent-dark-color: hsla($yellow, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($yellow, 1.05);
-        --gradient-via-color: hsla($yellow, 1.2);
-        --gradient-to-color: hsla($yellow, 0.85);
+        --gradient-from-color: hsla($yellow, $accent-gradient-from-color);
+        --gradient-via-color: hsla($yellow, $accent-gradient-via-color);
+        --gradient-to-color: hsla($yellow, $accent-gradient-to-color);
     }
     
     :root[data-accent="orange"] {
         --accent-color: $peach;
-        --accent-light-color: hsla($peach, 1.1);
-        --accent-dark-color: hsla($peach, 0.9);
+        --accent-light-color: hsla($peach, $accent-light-alpha);
+        --accent-dark-color: hsla($peach, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($peach, 1.05);
-        --gradient-via-color: hsla($peach, 1.2);
-        --gradient-to-color: hsla($peach, 0.85);
+        --gradient-from-color: hsla($peach, $accent-gradient-from-color);
+        --gradient-via-color: hsla($peach, $accent-gradient-via-color);
+        --gradient-to-color: hsla($peach, $accent-gradient-to-color);
     }
     
     :root[data-accent="red"] {
         --accent-color: $red;
-        --accent-light-color: hsla($red, 1.1);
-        --accent-dark-color: hsla($red, 0.9);
+        --accent-light-color: hsla($red, $accent-light-alpha);
+        --accent-dark-color: hsla($red, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($red, 1.05);
-        --gradient-via-color: hsla($red, 1.2);
-        --gradient-to-color: hsla($red, 0.85);
+        --gradient-from-color: hsla($red, $accent-gradient-from-color);
+        --gradient-via-color: hsla($red, $accent-gradient-via-color);
+        --gradient-to-color: hsla($red, $accent-gradient-to-color);
     }
     
     :root[data-accent="pink"] {
         --accent-color: $pink;
-        --accent-light-color: hsla($pink, 1.1);
-        --accent-dark-color: hsla($pink, 0.9);
+        --accent-light-color: hsla($pink, $accent-light-alpha);
+        --accent-dark-color: hsla($pink, $accent-dark-alpha);
         --accent-contrast-color: $crust;
-        --gradient-from-color: hsla($pink, 1.05);
-        --gradient-via-color: hsla($pink, 1.2);
-        --gradient-to-color: hsla($pink, 0.85);
+        --gradient-from-color: hsla($pink, $accent-gradient-from-color);
+        --gradient-via-color: hsla($pink, $accent-gradient-via-color);
+        --gradient-to-color: hsla($pink, $accent-gradient-to-color);
     }
     
     
