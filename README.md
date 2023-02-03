@@ -33,7 +33,7 @@
 ## FAQ
 
 - Q: How do I change the accent color?
-- A: You can change it in the Settings or via the CSS 
+- A: You can change it in the local settings
 
 ## 💝 Thanks to
 
