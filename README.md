@@ -45,7 +45,7 @@
 #### Stylish
 
 1. Install the Stylish [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/stylish/)/[Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe) extension.
-2. Create a new custom style that applies to `hoppscotch.org`.
+2. Create a new custom style that applies to `hoppscotch.io`.
 3. Copy the contents of [catppuccin.user.css](catppuccin.user.css) and paste it on the created style.
 
 
