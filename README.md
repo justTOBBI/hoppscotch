@@ -13,8 +13,27 @@
 </p>
 
 <p align="center">
-	<img src="assets/hoppscotch-screenshot.webp"/>
+	<img src="assets/hoppscotch.webp"/>
 </p>
+
+## Previews
+
+<details>
+<summary>🌻 Latte</summary>
+<img src="assets/latte.png"/>
+</details>
+<details>
+<summary>🪴 Frappé</summary>
+<img src="assets/frappe.png"/>
+</details>
+<details>
+<summary>🌺 Macchiato</summary>
+<img src="assets/macchiato.png"/>
+</details>
+<details>
+<summary>🌿 Mocha</summary>
+<img src="assets/mocha.png"/>
+</details>
 
 ## Usage
 
@@ -33,7 +52,7 @@
 ## FAQ
 
 - Q: How do I change the accent color?
-- A: You can change it in the local settings
+- A: You can change it in the local Hoppscotch settings
 
 ## 💝 Thanks to
 
