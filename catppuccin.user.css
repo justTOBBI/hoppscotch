@@ -158,17 +158,17 @@
       --tooltip-color: $text;
       --popover-color: $crust;
       --editor-theme: "vscode-esque";
-      --editor-type-color: #a78bfa;
+      --editor-type-color: hsla($mauve, 0.9);
       --editor-name-color: $blue;
       --editor-operator-color: $mauve;
       --editor-invalid-color: $maroon;
-      --editor-separator-color: #9ca3af;
-      --editor-meta-color: #9ca3af;
+      --editor-separator-color: $overlay0;
+      --editor-meta-color: $overlay0;
       --editor-variable-color: $green;
       --editor-link-color: $sapphire;
-      --editor-process-color: #e879f9;
-      --editor-constant-color: #a78bfa;
-      --editor-keyword-color: #f472b6;
+      --editor-process-color: hsla($pink, 1.4);
+      --editor-constant-color: hsla($lavender, 1.2);
+      --editor-keyword-color: $red;
     }
     
     :root.light {
@@ -202,6 +202,16 @@
     .ͼ1 .cm-placeholder {
         color: $text;
     }
+    
+    .cm-focused .cm-activeLine {
+        background-color: $surface0;
+    }
+    
+    .cm-focused .cm-activeLineGutter {
+        background-color: $surface2;
+    }
+    
+    
     
     :root[data-accent="green"] {
       --accent-color: $green;
